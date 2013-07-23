@@ -23,13 +23,13 @@
     <name>RESTful Hello World Demo</name>
     <description>RESTful Hello World Demo</description>
     <version>3.0.0-SNAPSHOT</version>
-<
+<!-- 
     <parent>
         <groupId>org.apache.cxf.samples</groupId>
         <artifactId>cxf-samples</artifactId>
         <version>3.0.0-SNAPSHOT</version>
     </parent>
-    
+    -->
     <properties>
         <cxf.version>${project.version}</cxf.version>
         <httpclient.version>3.1</httpclient.version>
@@ -123,6 +123,7 @@
         <dependency>
             <groupId>javax.ws.rs</groupId>
             <artifactId>javax.ws.rs-api</artifactId>
+            <version>3.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
